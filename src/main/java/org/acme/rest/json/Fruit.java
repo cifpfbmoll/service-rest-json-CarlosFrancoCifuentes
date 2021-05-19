@@ -12,4 +12,12 @@ public class Fruit {
         this.name = name;
         this.description = description;
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return this.name;
+    }
 }
